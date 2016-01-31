@@ -1,0 +1,42 @@
+BlasterCommand Power {on|onoff} your blaster
+BlasterCommand Power {on|onoff}
+BlasterCommand Begin power {on|onoff}
+BlasterCommand Power {up|onoff} your blaster
+BlasterCommand Power {up|onoff}
+BlasterCommand Begin power {up|onoff}
+
+BlasterCommand Power {off|onoff} your blaster
+BlasterCommand Power {off|onoff}
+BlasterCommand Begin power {off|onoff}
+BlasterCommand Power {down|onoff} your blaster
+BlasterCommand Power {down|onoff}
+BlasterCommand Begin power {down|onoff}
+
+
+BlasterCommand Set your blaster to {stun|strength}
+BlasterCommand All blasters set to {stun|strength}
+BlasterCommand Set to {stun|strength}
+BlasterCommand Set your blaster to {normal|strength}
+BlasterCommand All blasters set to {normal|strength}
+BlasterCommand Set to {normal|strength}
+
+BlasterCommand Don't {fail|motivation} me again
+BlasterCommand Stand {guard|motivation}
+
+BlasterCommand Who is your {daddy|father}
+BlasterCommand Tell me about your {daddy|father}
+BlasterCommand Who is your {dad|father}
+BlasterCommand Who is {father|father}
+
+
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me

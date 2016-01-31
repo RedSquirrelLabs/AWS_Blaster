@@ -210,9 +210,11 @@ StormTrooper.prototype.intentHandlers = {
     else{
       response.tell("Sorry, I could not understand what you said");
     }
-  }
-
-}
+  },
+HelpIntent: function (intent, session, response) {
+          response.ask("You can command the storm troopers and their blasters by setting blasters to normal or stun, tell them to stand guard, not to fail, and find out who is their daddy");
+      }
+};
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {

@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "intent": "BlasterCommand",
+      "slots": [
+        {
+          "name": "onoff",
+          "type": "LITERAL"
+        },
+        {
+          "name" :"strength",
+          "type": "LITERAL"
+        },
+        {
+          "name": "motivation",
+          "type": "LITERAL"
+        },
+        {
+          "name": "father",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots" : []
+    }
+  ]
+}
