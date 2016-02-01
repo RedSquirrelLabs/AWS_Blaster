@@ -14,12 +14,11 @@
 /**
  * App ID for the skill
  */
-var APP_ID = "amzn1.echo-sdk-ams.app.381235fa-4eb4-4445-b301-63e6f91b035d";
+var APP_ID = "amzn1.echo-sdk-ams.app.your-id-here";
 var request = require('request');
 
 
-var baseUrl = 'https://api.particle.io/v1/devices/3f0037000b47343138333038?access_token=f5c9f9bb496aeb2b47d3c4b2fee5f028a54f2309';
-//var powerUrl = 'https://api.particle.io/v1/devices/3f0037000b47343138333038/power?access_token=f5c9f9bb496aeb2b47d3c4b2fee5f028a54f2309';
+var baseUrl = 'https://api.particle.io/v1/devices/particleidhere?access_token=particletokenhere';
 
 /**
  * The AlexaSkill prototype and helper functions
@@ -90,8 +89,8 @@ StormTrooper.prototype.intentHandlers = {
       var pinvalue3 = "";
       var pinvalue4 = "";
 
-    var deviceid = "3f0037000b47343138333038";
-    var accessToken = "f5c9f9bb496aeb2b47d3c4b2fee5f028a54f2309";
+    var deviceid = "yourparticledeviceid";
+    var accessToken = "yourparticleaccesstoken";
 
     var sparkHst = "api.particle.io";
 
